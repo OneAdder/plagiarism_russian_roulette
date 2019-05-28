@@ -18,4 +18,4 @@ doc.text.addElement(p)
 
 pool = range(6)
 if random.choice(pool) == 4:
-    doc.save('test')
+    doc.save(filename)
